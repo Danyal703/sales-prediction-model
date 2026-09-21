@@ -1,0 +1,25 @@
+{
+  "model": "LinearRegression",
+  "trained_on": "training split only (160 observations)",
+  "features": [
+    "TV",
+    "radio",
+    "newspaper"
+  ],
+  "coefficients": [
+    0.044729517468716326,
+    0.1891950542343766,
+    0.0027611143413672056
+  ],
+  "intercept": 2.9790673381226256,
+  "training_min": {
+    "TV": 0.7,
+    "radio": 0.0,
+    "newspaper": 0.3
+  },
+  "training_max": {
+    "TV": 296.4,
+    "radio": 49.6,
+    "newspaper": 100.9
+  }
+}

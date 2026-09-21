@@ -1,0 +1,27 @@
+{
+  "observations": 200,
+  "training_observations": 160,
+  "test_observations": 40,
+  "random_seed": 42,
+  "test": {
+    "r2": 0.899438024100912,
+    "mae_thousands_of_units": 1.4607567168117606,
+    "rmse_thousands_of_units": 1.7815996615334502
+  },
+  "mean_baseline_test": {
+    "r2": -0.004757260886999015,
+    "mae_thousands_of_units": 4.9625,
+    "rmse_thousands_of_units": 5.631496248777939
+  },
+  "training_only_5fold_cv": {
+    "r2_mean": 0.8702645398521053,
+    "r2_std": 0.0803241548418059,
+    "mae_mean": 1.237076238029796,
+    "mae_std": 0.18246333827555045,
+    "rmse_mean": 1.675809832290712,
+    "rmse_std": 0.2974109461698416
+  },
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "target_units": "thousands of units; advertising inputs are thousands of dollars"
+}
